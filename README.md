@@ -184,8 +184,21 @@ framework release certificate.
   heading/accent/body contrast ratios were 14.55/4.75/5.53 in light and
   14.24/4.82/7.83 in dark. No captured errors occurred on the normal page load.
 - CLI command syntax was cross-checked with the implemented CLI help and source.
-  Source documentation links target `main`; remote availability is confirmed
-  separately after the corresponding repositories are integrated.
+  Source documentation links target `main`. After all three repositories were
+  integrated and their work branches deleted, 23 public URLs returned HTTP 200;
+  all three linked section fragments were valid.
+
+### Published verification
+
+The [GitHub Pages deployment](https://github.com/sddframework/website/actions/runs/37374956220)
+completed successfully on 2026-10-05. The HTML served at
+[sddfw.com](https://sddfw.com/) matched the production build byte for byte.
+HTTP redirects to HTTPS and `www` redirects to the apex domain. Playwright
+checked light/dark layouts at 390 and 1440 pixels with no horizontal overflow,
+all nine in-page links, mobile navigation, FAQ disclosure, sample correction,
+and the Markdown download. The download retained three passed criteria, one
+unverified criterion, and the illustrative-only notice; no JavaScript errors
+were observed. The profile image and linked documentation were available.
 
 Temporary browser tooling, screenshots, and the downloaded sample were kept
 outside the repository under `/private/tmp/`.
