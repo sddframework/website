@@ -1,0 +1,13 @@
+Herramienta: imagegen integrada. Fondo transparente.
+Referencia de identidad: logo anterior con Helvetica Neue, conservado en .artifacts/brand-v1/sddfw-logo-on-light.png.
+El resultado se reconstruyó después en SVG, con geometría limpia y la tipografía original convertida a trazados.
+
+Prompt utilizado:
+
+Use case: logo-brand.
+Asset type: NEW original standalone logo symbol for SDDFW, an open-source Spec Driven Development Framework connecting specification, implementation, and verifiable evidence.
+Reference image: use the supplied current wordmark ONLY to preserve the existing restrained Swiss editorial brand spirit and exact red #e60000. The three-layer stack symbol in this reference is rejected and MUST NOT be reused or remixed.
+Primary request: design ONE sophisticated, bespoke geometric SD monogram, not a stock icon. Invent a compact single emblem in which an angular, continuous S-shaped trace is interlocked with a squared D-shaped frame; use intentional, generous negative space so the symbol feels like an exact route from a written specification to a resolved result. Make a distinct asymmetric diagonal incision where the trace and the frame converge. The two D letters of SDDFW can be hinted at through two offset internal spaces, but prioritize a striking clean silhouette and small-size clarity over spelling every letter. This should be recognizable as a designed proprietary glyph with custom proportions, not simply typeset initials or a common pictogram.
+Style: flat vector logo aesthetic; bold structural strokes or solid bands, precision geometry, optical balance; squared or minimally eased corners; one color #e60000 only, actually transparent background. No texture or lighting. Center the single symbol with even clear space on a square 1024 x 1024 canvas. Symbol should occupy about 65% of the canvas. Needs to remain legible at 24 pixels and in a circular avatar crop.
+Text: NONE. Output only the standalone new emblem, no wordmark, no slogan, no labels, no presentation board.
+Avoid: stacked layers, cubes, hexagons, diamonds, generic checkmarks, shields, circuitry, network dots, brackets enclosing a check, arrows, infinity loops, generic linked rings, standard font monograms, gradients, mockups, shadows, 3D, any resemblance to the old stack/layers logo. Do not copy a known corporate logo. Develop custom geometry specifically for SDDFW.

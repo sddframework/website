@@ -81,6 +81,7 @@ rollback. The pre-publication DNS snapshot is kept locally in
 - `assets/main.js`: sample criteria, correction preview, Markdown download and mobile navigation.
 - `assets/theme.js`: early theme selection, system preference and the persistent light/dark switch.
 - `assets/favicon.svg`: local vector brand asset.
+- `assets/brand/`: SDDFW logo exports, social previews and ready-to-use brand kit.
 - `specs/landing.md`: intent and acceptance criteria for this landing.
 - `scripts/`: small local server and static build, using Node.js built-ins.
 

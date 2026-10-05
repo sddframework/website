@@ -1,0 +1,29 @@
+SDDFW — Imágenes para redes sociales y GitHub
+
+AVATAR
+sddfw-avatar-1024.png: imagen de perfil para redes o para la organización de GitHub.
+sddfw-avatar-512.png: la misma imagen a menor resolución.
+El símbolo admite recorte circular. Usa el archivo completo, sin volver a recortarlo.
+
+LOGO CON FONDO TRANSPARENTE
+sddfw-logo-on-light.png / .svg: letras oscuras, para fondos claros.
+sddfw-logo-on-dark.png / .svg: letras claras, para fondos oscuros.
+sddfw-mark-transparent.png / .svg: símbolo rojo, sin texto ni fondo.
+
+PORTADA DE GITHUB — 1280 × 640
+sddfw-github-preview-dark.png: versión principal con fondo grafito.
+sddfw-github-preview-light.png: alternativa con fondo claro.
+Se sube en el repositorio: Settings > General > Social preview > Edit > Upload an image.
+Cada PNG pesa menos de 1 MB.
+Referencia: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/customizing-your-repositorys-social-media-preview
+
+REDES / TARJETA DE ENLACE — 1200 × 630
+sddfw-social-preview-dark.png: versión principal con fondo grafito.
+sddfw-social-preview-light.png: alternativa con fondo claro.
+
+ORIGINALES
+Los SVG son escalables. El texto se ha convertido a trazados para que no dependa de fuentes instaladas.
+Nuevo símbolo: monograma SD a medida, con trazado continuo y dos cortes diagonales.
+Nombre, punto, tipografía, rojo y lema conservan la identidad anterior.
+Rojo: #e60000. Fondo claro: #fafafa. Fondo oscuro: #151515.
+La web local y el favicon utilizan el símbolo nuevo. El favicon incorpora cortes ópticos más abiertos para tamaños pequeños.

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="112" viewBox="0 0 112 112" role="img" aria-labelledby="title desc">
+  <title id="title">SDDFW — Trace monogram</title>
+  <desc id="desc">An angular S trace interlocks with a D-shaped frame. Two diagonal cuts keep the specification and its implementation distinguishable within one connected identity.</desc>
+  <g fill="#e60000" transform="translate(6 6)">
+    <path d="M0 0H62.5C68.5 0 73.6 1.5 78.7 3.7L62 15.6H16.4V27L49.6 42.5H80.4V31.7C80.4 23.5 75.8 18.7 65.8 15.9L81.2 4.8C93 11.2 100 21.4 100 34.9V67C100 89.5 84.8 100 62.2 100H58.4L38.7 84.8H66.2C74.7 84.8 80.4 80.2 80.4 72.2C80.4 64.2 74.5 57.2 66.2 57.2H43.4L0 34.8Z"/>
+    <path d="M0 39.6L16.4 49.5V72.5L54.5 100H29.5L0 78Z"/>
+  </g>
+</svg>

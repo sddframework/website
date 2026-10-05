@@ -1,0 +1,12 @@
+SDDFW — Traza
+
+Símbolo creado a medida para este framework: una S angular entrelazada con un marco en forma de D.
+Los cortes diagonales distinguen los elementos y mantienen un recorrido visual compartido.
+La geometría final se ha redibujado como dos trazados Bézier, con bandas de grosor consistente y espacios negativos amplios.
+
+Identidad conservada: Helvetica Neue Bold para SDDFW, el punto gris, Helvetica Neue para textos y Georgia Italic para «evidence.».
+Rojo #e60000; fondos #fafafa y #151515; versión blanca para avatar.
+Máster: sddfw-symbol.svg. Las versiones de logo contienen letras convertidas a trazados.
+
+Dirección desarrollada con imagegen (herramienta integrada), seguida de reconstrucción vectorial.
+Prompt de diseño: «Custom geometric SD monogram: an angular S-shaped trace interlocked with a squared D frame; asymmetric diagonal convergence incision. Exact red #e60000; transparent; no layers or stock icon; square canvas. Preserve the existing Helvetica Neue wordmark and editorial identity.»
