@@ -23,8 +23,8 @@ The founder, organization owner, and primary maintainer is
 [@alfoncode](https://github.com/alfoncode). The website was transferred from
 `alfoncode/sddfw` with its history preserved.
 
-See the shared [contribution guide](https://github.com/sddframework/.github/blob/docs/v0.1-workflow/CONTRIBUTING.md)
-and the framework's [governance document](https://github.com/sddframework/sddfw/blob/feat/v0.1-playwright/GOVERNANCE.md).
+See the shared [contribution guide](https://github.com/sddframework/.github/blob/main/CONTRIBUTING.md)
+and the framework's [governance document](https://github.com/sddframework/sddfw/blob/main/GOVERNANCE.md).
 
 ## License
 
@@ -35,7 +35,7 @@ and the framework's [governance document](https://github.com/sddframework/sddfw/
 Requires Node.js 22 or later. There are no package dependencies to install.
 
 ```sh
-pnpm dev
+npm run dev
 ```
 
 Open http://localhost:4173. Set `PORT` to use a different port.
@@ -43,9 +43,9 @@ Open http://localhost:4173. Set `PORT` to use a different port.
 ## Build and preview
 
 ```sh
-pnpm check
-pnpm build
-pnpm preview
+npm run check
+npm run build
+npm run preview
 ```
 
 Stop the development server before previewing the build on the same port.
@@ -96,8 +96,8 @@ is an early source preview installed from the framework repository; its npm
 package is not published. OpenSpec/Spec Kit imports and other test runners remain
 future work. There is no waitlist backend.
 
-The getting-started and example links target `feat/v0.1-playwright` while the
-preview is reviewed. When it lands on `main`, update all source links together.
+The getting-started, example, and community guide links target the repositories'
+`main` branches so deleting a completed work branch does not break them.
 The page does not upload reports, execute user code, or perform agent calls.
 Agent invocation happens through the installed local CLI and the user's coding
 agent. Tests are prepared and checked before implementation; implementation
@@ -184,8 +184,8 @@ framework release certificate.
   heading/accent/body contrast ratios were 14.55/4.75/5.53 in light and
   14.24/4.82/7.83 in dark. No captured errors occurred on the normal page load.
 - CLI command syntax was cross-checked with the implemented CLI help and source.
-  Source documentation links target the implementation branch; remote
-  availability is confirmed separately when that branch is published.
+  Source documentation links target `main`; remote availability is confirmed
+  separately after the corresponding repositories are integrated.
 
 Temporary browser tooling, screenshots, and the downloaded sample were kept
 outside the repository under `/private/tmp/`.

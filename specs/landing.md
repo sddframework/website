@@ -25,7 +25,7 @@ reservation report distinct from executed CLI evidence.
 
 - LAND-001: All visitor-facing content is in English.
 - LAND-002: The page describes v0.1 as an early source preview with no npm
-  registry release. Installation links target the actual implementation branch.
+  registry release. Installation links target the framework repository's `main` branch.
   It has no invented repository, customer logos, testimonials, waitlist
   submission, or claim that the illustrative report is live framework evidence.
 - LAND-003: Selecting a sample criterion reveals its sample evidence and result.
