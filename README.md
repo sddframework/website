@@ -23,8 +23,8 @@ The founder, organization owner, and primary maintainer is
 [@alfoncode](https://github.com/alfoncode). The website was transferred from
 `alfoncode/sddfw` with its history preserved.
 
-See the shared [contribution guide](https://github.com/sddframework/.github/blob/main/CONTRIBUTING.md)
-and the framework's [governance document](https://github.com/sddframework/sddfw/blob/main/GOVERNANCE.md).
+See the shared [contribution guide](https://github.com/sddframework/.github/blob/docs/v0.1-workflow/CONTRIBUTING.md)
+and the framework's [governance document](https://github.com/sddframework/sddfw/blob/feat/v0.1-playwright/GOVERNANCE.md).
 
 ## License
 
