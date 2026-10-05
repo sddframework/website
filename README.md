@@ -2,9 +2,9 @@
 
 Spec Driven Development Framework. Build with intent. Ship with evidence.
 
-This repository contains the English landing page for the SDDFW v0.1 direction.
-The framework is in development; the acceptance report on the landing is an
-interactive, explicitly labeled sample.
+This repository contains the English landing page for the SDDFW v0.1 source
+preview. It introduces the local CLI workflow, links to runnable frontend/API
+examples, and separates those checks from the interactive illustrative report.
 
 ## Project and community
 
@@ -90,9 +90,19 @@ Core content and the baseline report remain readable without JavaScript.
 
 ## Product boundaries
 
-The sample does not run application tests or certify a change. The v0.1 and later
-roadmap items describe planned work. There is no waitlist backend, installable
-framework package yet. The landing links to the public framework repository.
+The reservation report on the page does not run application tests or certify a
+change. The separate CLI favorites demo runs actual UI/API checks locally. v0.1
+is an early source preview installed from the framework repository; its npm
+package is not published. OpenSpec/Spec Kit imports and other test runners remain
+future work. There is no waitlist backend.
+
+The getting-started and example links target `feat/v0.1-playwright` while the
+preview is reviewed. When it lands on `main`, update all source links together.
+The page does not upload reports, execute user code, or perform agent calls.
+Agent invocation happens through the installed local CLI and the user's coding
+agent. Tests are prepared and checked before implementation; implementation
+runs with test files frozen. Correct scenario interpretation and test adequacy
+still require review.
 
 ## Verified locally — 2026-10-01
 
@@ -121,7 +131,8 @@ Verification used an isolated headless Chrome browser through `agent-browser`.
 - The final normal page load produced no captured browser console or page errors.
 
 Local screenshots and the downloaded sample are in `.artifacts/` (gitignored).
-These checks cover the landing, not the planned framework or a hosted deployment.
+These historical checks cover the previous landing, not the v0.1 CLI or a
+hosted deployment. See the current verification section below for this revision.
 
 ## Red light and dark themes
 
@@ -145,3 +156,36 @@ content and navigation readable, with unavailable interactive controls hidden.
 The branding audit includes hidden/generated files and file/directory names.
 Package metadata and saved sample reports use SDDFW, and previous screenshots
 were regenerated with the corrected brand. Current theme previews use the red palette.
+
+
+## Verified locally — 2026-10-05, v0.1 landing
+
+The revised source page was checked in isolated headless Chromium with
+`agent-browser` 0.38.2. These are local landing checks, not a hosted deployment or
+framework release certificate.
+
+- `npm run check` and `npm run build` passed.
+- Light and dark themes had no horizontal page overflow at 360, 390, 768, and
+  1440 pixels. Desktop and mobile screenshots were inspected, including the new
+  quickstart and frontend/backend examples.
+- All in-page anchors resolved. The demo correction changed 2 passed criteria
+  to 3 and preserved the unverified boundary; resetting restored the baseline.
+- The Markdown download retained all four criteria and its explicit
+  illustrative-only notice.
+- Mobile navigation opened and Escape closed it and restored button focus.
+  Native FAQ disclosure opened by click and closed by keyboard.
+- Reduced-motion emulation used automatic scrolling. Blocking both JavaScript
+  assets kept navigation, the quickstart, examples, and baseline report readable;
+  unavailable sample actions were hidden. This is a script-unavailable fallback
+  check, not browser-wide JavaScript disabling.
+- Axe 4.12.1 reported zero automated violations in light/dark desktop and mobile
+  checks. Decorative overlaps in the existing closing panel still require
+  manual contrast review. Text backgrounds were made opaque there; reviewed
+  heading/accent/body contrast ratios were 14.55/4.75/5.53 in light and
+  14.24/4.82/7.83 in dark. No captured errors occurred on the normal page load.
+- CLI command syntax was cross-checked with the implemented CLI help and source.
+  Source documentation links target the implementation branch; remote
+  availability is confirmed separately when that branch is published.
+
+Temporary browser tooling, screenshots, and the downloaded sample were kept
+outside the repository under `/private/tmp/`.
