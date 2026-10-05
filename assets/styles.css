@@ -6,6 +6,7 @@
   --ink: light-dark(#202020, #f5f5f5);
   --muted: light-dark(#616161, #b8b8b8);
   --brand: light-dark(#d90000, #ff5148);
+  --brand-mark: light-dark(#d90000, #e60000);
   --primary: #e60000;
   --primary-hover: #c50000;
   --primary-text: #ffffff;
@@ -71,7 +72,7 @@ h1, h2, h3, p { margin: 0; }
 .site-header { position: sticky; top: 0; z-index: 20; background: var(--paper); border-bottom: 1px solid var(--line); }
 .nav-shell { display: flex; align-items: center; min-height: 86px; gap: 25px; }
 .brand { display: inline-flex; align-items: center; gap: 10px; font-size: 22px; font-weight: 700; letter-spacing: -0.045em; }
-.brand-mark { display: grid; place-items: center; width: 34px; height: 38px; color: var(--brand); }
+.brand-mark { display: grid; place-items: center; width: 34px; height: 38px; color: var(--brand-mark); }
 .brand-mark .icon { width: 28px; height: 30px; stroke-width: 1.75; }
 .brand-period { color: var(--muted); }
 .version-pill { display: flex; align-items: center; gap: 7px; font-family: var(--mono); font-size: 10px; padding: 7px 10px; border: 1px solid var(--line); border-radius: 30px; color: var(--muted); }
